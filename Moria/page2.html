@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pet Simulation Game</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Pet Simulation Game</h1>
+		<div id="progress-bars">
+			<div class="progress-bar">
+				<span class="progress-label">Hungry</span>
+				<progress id="hungry-progress" value="50" max="100"></progress>
+			</div>
+			<div class="progress-bar">
+				<span class="progress-label">Thirst</span>
+				<progress id="thirst-progress" value="50" max="100"></progress>
+			</div>
+			<div class="progress-bar">
+				<span class="progress-label">Fun</span>
+				<progress id="fun-progress" value="50" max="100"></progress>
+			</div>
+			<div class="progress-bar">
+				<span class="progress-label">Healthy</span>
+				<progress id="health-progress" value="50" max="100"></progress>
+			</div>
+		</div>
+		<div id="character">
+			<img id="character-img" src="images/dog-happy.png" alt="Pet character">
+		</div>
+		<div id="buttons">
+			<button id="eat-btn" class="action-btn"><img src="images/eat.png" alt="Eat"></button>
+			<button id="drink-btn" class="action-btn"><img src="images/drink.png" alt="Drink"></button>
+			<button id="play-btn" class="action-btn"><img src="images/play.png" alt="Play"></button>
+			<button id="talk-btn" class="action-btn"><img src="images/talk.png" alt="Talk"></button>
+			<button id="jump-btn" class="action-btn"><img src="images/jump.png" alt="Jump"></button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
